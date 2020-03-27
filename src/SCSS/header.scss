@@ -1,0 +1,51 @@
+
+.header {
+  background-color: #fff;
+
+  border-bottom: 2px solid #F2F2F2;
+
+  &__logo {
+  }
+  &__nav {
+    padding: 20px 0;
+
+    border-top: 2px solid #f2f2f2;
+  }
+  &__nav-inner{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__nav-allCategory {
+  }
+  &__nav-menu {
+  }
+  &__nav-menuList {
+    display: flex;
+
+  }
+  &__nav-submenu {
+  }
+  &__nav-submenuList {
+    display: flex;
+  }
+  &__search {
+  }
+  &__search-box {
+  }
+  &__search-category {
+  }
+  &__search-line {
+  }
+  &__top {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 35px 0;
+  }
+  &__user-bar {
+  }
+  &__user-barList {
+    display: flex;
+  }
+}
+
