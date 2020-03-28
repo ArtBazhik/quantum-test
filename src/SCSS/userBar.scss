@@ -1,0 +1,64 @@
+.header{
+  &__user-bar {
+  }
+  &__user-barList {
+    display: flex;
+    li{
+      position: relative;
+      margin-left: 45px;
+      color: #808080;
+      &:nth-child(1){
+        margin-left: 0;
+        &::before{
+          content: '';
+          display: block;
+          position: absolute;
+
+          width: 30px;
+          height: 30px;
+          top: -8px;
+          left: -35px;
+
+          background-image: url('../img/icons/ic_shopping_cart.svg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+      }
+      &:nth-child(2){
+        &::before{
+          content: '';
+          display: block;
+          position: absolute;
+
+          width: 30px;
+          height: 30px;
+          top: -8px;
+          left: -35px;
+
+          background-image: url('../img/icons/ic_favorite_border.svg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+      }
+      &:nth-child(3){
+        &::before{
+          content: '';
+          display: block;
+          position: absolute;
+
+          width: 30px;
+          height: 30px;
+          top: -8px;
+          left: -35px;
+
+          background-image: url('../img/icons/ic_account_circle.svg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+      }
+    }
+  }
+}

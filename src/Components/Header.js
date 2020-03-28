@@ -1,6 +1,8 @@
 import React from 'react';
 import icon from '../img/Logo/QUANTUM-logo.svg'
 import SearchInput from './SearchInput'
+import UserBar from './UserBar'
+import HeaderNav from './HeaderNav'
 
 const Header = () => {
   return (
@@ -13,39 +15,10 @@ const Header = () => {
           <div className="header__search">
           <SearchInput />
           </div>
-          <div className="header__user-bar">
-          <ul className="header__user-barList">
-            <li>2 Items</li>
-            <li>Wish List</li>
-            <li>Sing in</li>
-          </ul>
-          </div>
+          <UserBar/>
         </div>
       </div>
-      <div className="header__nav">
-        <div className="container">
-          <div className="header__nav-inner">
-            <div className="header__nav-allCategory">
-              All Categories
-            </div>
-            <div className="header__nav-menu">
-              <ul className="header__nav-menuList">
-                <li>Super Deals</li>
-                <li>Featured Brands</li>
-                <li>Collections</li>
-                <li>Bestselling</li>
-              </ul>
-            </div>
-            <div className="header__nav-submenu">
-              <ul className="header__nav-submenuList">
-                <li>Help</li>
-                <li>USD</li>
-                <li>Language</li>
-               </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+      <HeaderNav/>
     </header> 
   )
 }
