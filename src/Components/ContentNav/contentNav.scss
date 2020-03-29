@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0 0 30px 15px;
-  padding: 0 20px;
+  padding: 0 25px;
   background-color: white;
   border-radius: 8px;
   &__items {
@@ -19,15 +19,27 @@
       font-size: 13px;
       line-height: 60px;
       color: #b3b3b3;
+      margin-right: 30px;
     }
   }
   &__options{
     span{
       display: inline-block;
       width: 20px;
-      height: 50%;
-      background-color: red;
+      height: 100%;
       margin-left: 10px;
+      padding: 0 30px;
+      border-left: 2px solid #f5f5f5;
+      &:nth-child(1){
+        background-image: url('./ic_view_6.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      &:nth-child(2){
+        background-image: url('./ic_view_2.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+      }
     }
   }
 }

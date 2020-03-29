@@ -8,17 +8,15 @@ import Slide3 from './Slide3.jpg'
 // import NextBtn from './Right-button.svg'
 
 
-const settings = {
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  className: "slides"
-};
-
 const SlickSlider = () => {
-
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    className: "slides"
+  };
   return (
     <section className="slickSlider">
       <div className="container">
