@@ -1,8 +1,8 @@
 import React from 'react';
-import icon from '../img/Logo/QUANTUM-logo.svg'
-import SearchInput from './SearchInput'
-import UserBar from './UserBar'
-import HeaderNav from './HeaderNav'
+import icon from './QUANTUM-logo.svg'
+import SearchInput from '../SearchInput/SearchInput'
+import UserBar from '../UserBar/UserBar'
+import HeaderNav from '../HeaderNav/HeaderNav'
 
 const Header = () => {
   return (

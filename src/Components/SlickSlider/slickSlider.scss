@@ -1,0 +1,75 @@
+.slick-slider{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slick-arrow{
+  width: 60px;
+  height: 60px;
+
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 0;
+  z-index: 10;
+
+  transform: translateY(-50%);
+
+}
+.slick-list{
+  width: 100%;
+  border-radius: 5px;
+}
+.slick-track{
+}
+.slick-slide{
+  max-height: 330px;
+}
+.slick-prev{
+  position: absolute;
+
+  top: 50%;
+  left: 65px;
+
+  background-image: url('./Left-button.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slick-next{
+  position: absolute;
+  
+  top: 50%;
+  right: 65px;
+
+  background-image: url('./Right-button.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slick-dots{
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+
+  transform: translateX(-50%);
+  li{
+    display: inline-block;
+    margin-right: 10px;
+  }
+  button{
+    width: 70px;
+    height: 2px;
+
+    font-size: 0;
+    background-color: rgba(230, 230, 230, 0.424);
+  }
+}
+.slick-active{
+  button{
+    background-color: white;
+  }
+}
+.photo{
+  width: 100%;
+  height: 100%;
+}
