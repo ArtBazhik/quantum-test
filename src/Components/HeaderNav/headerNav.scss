@@ -33,17 +33,14 @@
       position: relative;
       color: #808080;
       border-left: 2px solid #f2f2f2;
-      padding-left: 20px;
-      &::after{
+      padding: 0 20px;
+      &::before{
         content: '\203A';
         display: block;
         position: absolute;
-  
         top: 1px;
-        right: -15px;
-  
+        right: 7px;
         color: #b3b3b3;
-  
         transform: rotate(90deg);
       }
     }
