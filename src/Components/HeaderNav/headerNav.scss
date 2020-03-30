@@ -9,11 +9,33 @@
     padding: 0 10px;
   }
   &__nav-allCategory {
+    position: relative;
     flex: 1 1 25%;
+    padding-left: 40px;
+    @media (max-width: 940px) {
+      flex: 1 1 75%;
+    }
+    @media (max-width: 515px) {
+      font-size: 0;
+    }
+    &::before{
+      content: '';
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      top: 50%;
+      transform: translateY(-52%);
+      left: 0;
+      background-image: url('./ic_menu.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+    }
   }
   &__nav-menu {
     flex: 1 1 50%;
-
+    @media (max-width: 940px) {
+      display: none;
+    }
   }
   &__nav-menuList {
     display: flex;
@@ -23,7 +45,6 @@
   }
   &__nav-submenu {
     flex: 1 1 25%;
-
   }
   &__nav-submenuList {
     display: flex;

@@ -1,5 +1,9 @@
 .header{
   &__user-bar {
+    @media (max-width:700px) {
+      align-self: flex-end;
+      order: 1;
+    }
   }
   &__user-barList {
     display: flex;
@@ -7,6 +11,15 @@
       position: relative;
       margin-left: 70px;
       color: #808080;
+      cursor: pointer;
+      @media (max-width: 930px) {
+        font-size: 0;
+        margin-left: 40px;
+        margin-bottom: 5px;
+      }
+      @media (max-width: 515px) {
+        margin-bottom: 0;
+      }
       &:nth-child(1){
         margin-left: 0;
         &::before{

@@ -3,7 +3,6 @@
     position: relative;
     display: block;
     padding: 15px 15px 15px 45px;
-
     border: 2px solid #f5f5f5;
     &::before{
       content: '';
@@ -43,8 +42,13 @@
   &__search-line {
     background-color: transparent;
     line-height: 20px;
-
-    width: 210px;
+    max-width: 210px;
+    @media (max-width: 515px) {
+      width: 300px;
+    }
+    @media (max-width: 515px) {
+      width: 120px;
+    }
     &:focus{
       box-shadow: 0px 3px 3px #f5f5f5;
     }

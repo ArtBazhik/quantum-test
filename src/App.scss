@@ -1,6 +1,6 @@
 @import "./SCSS/common.scss";
-@import "./Components/Header/header.scss";
-@import "./Components/SearchInput/searchInput.scss";
+@import "Components/Header/header.module";
+@import "Components/SearchInput/searchInput.module";
 @import "./Components/UserBar/userBar.scss";
 @import "./Components/HeaderNav/headerNav.scss";
 @import "./Components/SlickSlider/slickSlider.scss";
