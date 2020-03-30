@@ -1,0 +1,60 @@
+.footerDown{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 45px 45px 100px;
+}
+.list{
+  display: flex;
+  li{
+    color: #b3b3b3;
+    margin-right: 30px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
+.banks{
+  color: #b3b3b3;
+  display: flex;
+  align-items: center;
+  span{
+    margin-left: 5px;
+    &:first-child{
+      margin-left: 0;
+      margin-right: 30px;
+    }
+  }
+  .visa{
+    display: block;
+    background-image: url('../Footer/visa_icon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 30px;
+  }
+  .masterCard {
+    display: block;
+    background-image: url('../Footer/mastercard_icon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 30px;
+  }
+  .payPal{
+    display: block;
+    background-image: url('../Footer/paypal_icon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 30px;
+  }
+  .amazon{
+    display: block;
+    background-image: url('../Footer/amazon_icon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 30px;
+  }
+}
