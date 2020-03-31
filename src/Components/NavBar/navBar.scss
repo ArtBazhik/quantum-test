@@ -7,6 +7,9 @@
     margin: 0 15px 30px 0;
     border-radius: 8px;
     overflow: hidden;
+    @media (max-width:710px) {
+      display: none;
+    }
   }
 }
 .nav-bar {
@@ -36,7 +39,8 @@
     &::before{
       content:'';
       position: absolute;
-      top: 25px;
+      top: 50%;
+      transform: translateY(-30%);
       left: 0;
       margin-left: 15px;
       display: block;
@@ -50,7 +54,8 @@
     &::before{
       content:'';
       position: absolute;
-      top: 25px;
+      top: 50%;
+      transform: translateY(-50%);
       left: 0;
       margin-left: 15px;
       display: block;
@@ -59,8 +64,6 @@
       background-image: url('./ic_speaker.svg');
       background-repeat: no-repeat;
     }
-  }
-  &__categories {
   }
   &__cell-phones {
     &::before{

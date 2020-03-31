@@ -5,4 +5,7 @@
   border-radius: 8px;
   overflow: hidden;
   margin-left: 15px;
+  @media (max-width:710px) {
+    margin-left: 0;
+  }
 }

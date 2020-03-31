@@ -1,7 +1,6 @@
 import React from 'react'
 import ShowProducts from '../ShowProducts/ShowProducts'
 
-
 const ContentNav = () => {
   return(
     <div className="content__products-inner">
@@ -10,6 +9,7 @@ const ContentNav = () => {
           <li>Popular products</li>
           <li>Low price</li>
           <li>High price</li>
+          <li>Categoties</li>
         </ul>
         <div className="sort-card__options">
           <span></span>
