@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 45px 45px 45px 100px;
-    @media (max-width: 900px) {
+    @media (max-width: 1030px) {
       padding: 45px 0;
     }
     @media (max-width: 670px) {
@@ -30,6 +30,10 @@
     color: #666;
     font-size: 16px;
     margin-right: 60px;
+    @media (max-width: 1030px) {
+      margin-right: 20px;
+    }
+
 
     &:last-child {
       margin-right: 0;
@@ -52,7 +56,6 @@
   @media (max-width: 670px) {
     flex: 0 1 100%;
     justify-content: flex-end;
-    margin-top: 10px;
   }
 
   span {
@@ -60,7 +63,9 @@
     width: 30px;
     height: 30px;
     margin-left: 15px;
-
+    @media (max-width: 1030px) {
+      margin-left: 5px;
+    }
     &:first-child {
       margin-left: 0;
     }
