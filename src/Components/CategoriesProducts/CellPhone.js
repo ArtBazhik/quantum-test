@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../CardProduct/image-1.png'
+import img from '../CardProduct/image-1.svg'
 
 let cellPhone = [
   {
@@ -26,6 +26,10 @@ let cellPhone = [
   {
     name: 'Iphone Xs',
     price: '650',
+  },
+  {
+    name: 'Samsung S3',
+    price: '340',
   }
 ]
 

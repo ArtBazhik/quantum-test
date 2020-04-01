@@ -1,8 +1,11 @@
 .show-products{
-  min-height: 600px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   border-radius: 8px;
   overflow: hidden;
   margin-left: 15px;
+  padding: 0 15px;
   @media (max-width:710px) {
     margin-left: 0;
   }
