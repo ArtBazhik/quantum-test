@@ -1,6 +1,6 @@
 import React from 'react'
-import FooterNav from '../FooterNav/FooterNav'
-import FooterDown from '../FooterDown/FooterDown'
+import FooterNav from './FooterNav/FooterNav'
+import FooterDown from './FooterDown/FooterDown'
 import s from './footer.module.scss'
 
 const Footer = () => {

@@ -1,12 +1,13 @@
 import React from 'react'
-import NavBar from '../NavBar/NavBar'
-import ContentNav from '../ContentNav/ContentNav'
+import s from './content.module.scss'
+import NavBar from './NavBar/NavBar'
+import ContentNav from './ContentNav/ContentNav'
 
 const Main = () => {
   return(
-    <main className="content">
-      <div className="container">
-        <div className="content__inner">
+    <main className={s.content}>
+      <div className={s.container}>
+        <div className={s.inner}>
           <NavBar />
           <ContentNav />
         </div>

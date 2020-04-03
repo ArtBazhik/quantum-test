@@ -1,8 +1,8 @@
 import React from 'react'
-import './App.scss'
+import './SCSS/App.scss'
 import Header from './Components/Header/Header'
-import SlickSlider from './Components/SlickSlider/SlickSlider'
-import SectionProduct from './Components/SectionProduct/SectionProduct'
+import SlickSlider from './Components/SliderSection/SlickSlider'
+import SectionProduct from './Components/ProductSection/SectionProduct'
 import Main from './Components/Content/Content'
 import Footer from './Components/Footer/Footer'
 

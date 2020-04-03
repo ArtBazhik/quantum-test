@@ -1,20 +1,20 @@
 import React from 'react';
 import icon from './QUANTUM-logo.svg'
-import SearchInput from '../SearchInput/SearchInput'
-import UserBar from '../UserBar/UserBar'
-import HeaderNav from '../HeaderNav/HeaderNav'
+import SearchInput from './HeaderSearch/SearchInput'
+import UserBar from './HeaderSearch/UserBar/UserBar'
+import HeaderNav from './HeaderMenu/HeaderNav'
 import s from './header.module.scss'
 
 const Header = () => {
   return (
-    <header className="header">
+    <header className={s.header}>
       <div className="container">
-        <div className="header__top">
+        <div className={s.headerTop}>
           <div className={s.inner}>
-            <a className="header__logo" href="#">
+            <a className={s.headerLogo} href="#">
               <img src={icon} alt="Logo"></img>
             </a>
-            <div className="header__search">
+            <div className={s.headerSearch}>
               <SearchInput />
           </div>
           </div>

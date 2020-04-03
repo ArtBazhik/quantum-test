@@ -1,0 +1,75 @@
+.userBar {
+  @media (max-width:700px) {
+    align-self: flex-end;
+    order: 1;
+  }
+}
+.barList {
+  display: flex;
+  li{
+    position: relative;
+    margin-left: 70px;
+    color: #808080;
+    cursor: pointer;
+    @media (max-width: 930px) {
+      font-size: 0;
+      margin-left: 40px;
+      margin-bottom: 5px;
+    }
+    @media (max-width: 515px) {
+      margin-bottom: 0;
+    }
+    &:nth-child(1){
+      margin-left: 0;
+      &::before{
+        content: '';
+        display: block;
+        position: absolute;
+
+        width: 30px;
+        height: 30px;
+        top: -8px;
+        left: -35px;
+
+        background-image: url('ic_shopping_cart.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+    }
+    &:nth-child(2){
+      &::before{
+        content: '';
+        display: block;
+        position: absolute;
+
+        width: 30px;
+        height: 30px;
+        top: -8px;
+        left: -35px;
+
+        background-image: url('ic_favorite_border.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+    }
+    &:nth-child(3){
+      &::before{
+        content: '';
+        display: block;
+        position: absolute;
+
+        width: 30px;
+        height: 30px;
+        top: -8px;
+        left: -35px;
+
+        background-image: url('ic_account_circle.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+    }
+  }
+}
