@@ -10,33 +10,33 @@ let cellPhone = [
   {
     name: 'Iphone 8',
     price: '569',
-    image: iphone8
+    image: iphone8,
   },
   {
     name: 'Iphone 6S',
     price: '202',
-    image: iphone6S
+    image: iphone6S,
   },
   {
     name: 'Iphone Xr',
     price: '645',
-    image: iphoneXr
+    image: iphoneXr,
   },
   {
     name: 'Iphone 11',
     price: '935',
-    image: iphone11
+    image: iphone11,
   },
   {
     name: 'Iphone 11 Pro',
     price: '1264',
-    image: iphone11Pro
+    image: iphone11Pro,
   },
   {
     name: 'Iphone Xs',
     price: '650',
-    image: iphoneXs
-  }
+    image: iphoneXs,
+  },
 ]
 
 export default cellPhone

@@ -2,7 +2,7 @@ import React from 'react'
 import s from './contentNav.module.scss'
 import ShowProducts from '../ShowProducts/ShowProducts'
 
-const ContentNav = () => {
+const ContentNav = (props) => {
   return(
     <div className={s.productsInner}>
       <div className={s.sortCard}>
@@ -17,7 +17,7 @@ const ContentNav = () => {
           <span></span>
         </div>
       </div>
-      <ShowProducts />
+      <ShowProducts/>
     </div>
   )
 }

@@ -1,14 +1,17 @@
 import React from 'react'
-import s from './ShowProducts.module.scss'
-import CardProduct from '../../CardProduct/CardProduct'
-import cellPhone from '../../CategoriesProducts/CellPhone'
+import AppleComputers from './AppleComputers/AppleComputers'
+import Phones from './Cellphones/CellPhones'
+import Computers from './Computers/Computers'
+import Laptops from './Laptops/Laptops'
+import {Route} from 'react-router-dom'
 
 const ShowProducts = (props) => {
-  let phones =
-      cellPhone.map((phone, index) => {return <CardProduct key={index} image={phone.image} name={phone.name} price={phone.price}/>})
   return (
-      <div className={s.showProducts}>
-        {phones}
+      <div>
+        <Route path='/appleComputers' component={AppleComputers}/>
+        <Route path='/Phones' component={Phones}/>
+        <Route path='/computers' component={Computers}/>
+        <Route path='/laptops' component={Laptops}/>
       </div>
   )
 }
