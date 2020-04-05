@@ -1,10 +1,10 @@
 import React from 'react'
-import iphoneXr from '../CardProduct/iphone-Xr.jpg'
-import iphone6S from '../CardProduct/iphone-6s.jpg'
-import iphone11 from '../CardProduct/iphone-11.jpg'
-import iphone11Pro from '../CardProduct/iphone-11Pro.jpg'
-import iphoneXs from '../CardProduct/iphone-Xs.jpg'
-import iphone8 from '../CardProduct/iphone-8.jpg'
+import iphoneXr from './ProductsImages/Phones/iphone-Xr.jpg'
+import iphone6S from './ProductsImages/Phones/iphone-6s.jpg'
+import iphone11 from './ProductsImages/Phones/iphone-11.jpg'
+import iphone11Pro from './ProductsImages/Phones/iphone-11Pro.jpg'
+import iphoneXs from './ProductsImages/Phones/iphone-Xs.jpg'
+import iphone8 from './ProductsImages/Phones/iphone-8.jpg'
 
 let cellPhone = [
   {
