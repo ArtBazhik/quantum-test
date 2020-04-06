@@ -7,7 +7,7 @@ import SectionProduct from './Components/ProductSection/SectionProduct'
 import Main from './Components/Content/Content'
 import Footer from './Components/Footer/Footer'
 
-const App = () => {
+const App = (props) => {
   return (
       <BrowserRouter>
         <div className="wrapper">

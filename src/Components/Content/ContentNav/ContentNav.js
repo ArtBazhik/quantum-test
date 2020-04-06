@@ -13,8 +13,8 @@ const ContentNav = (props) => {
           <li>Categoties</li>
         </ul>
         <div className={s.cardOptions}>
-          <span></span>
-          <span></span>
+          <button></button>
+          <button></button>
         </div>
       </div>
       <ShowProducts/>

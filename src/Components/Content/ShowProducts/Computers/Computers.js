@@ -10,7 +10,6 @@ const Computers = (props) => {
       })
   return(
       <div className={s.showProducts}>{computer}</div>
-
   )
 }
 export default Computers

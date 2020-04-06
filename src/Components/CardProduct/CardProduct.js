@@ -1,4 +1,4 @@
-import React, {forwardRef} from 'react'
+import React from 'react'
 import s from './CardProduct.module.scss'
 import appleComputers from '../CategoriesProducts/AppleComputers'
 import cellPhone from '../CategoriesProducts/CellPhone'
@@ -32,5 +32,4 @@ const CardProduct = ({name, price, image}) => {
       </div>
   )
 }
-console.log(cellPhone)
 export default CardProduct

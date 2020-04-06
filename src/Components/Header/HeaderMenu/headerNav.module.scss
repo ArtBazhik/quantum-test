@@ -8,34 +8,75 @@
   margin: 0 auto;
 
   flex: 1 1 auto;
-  overflow: hidden;
+  //overflow: hidden;
 }
 .navInner{
   display: flex;
   justify-content: space-between;
   line-height: 55px;
   padding: 0 10px;
+  //overflow: visible;
   .navAllCategory {
     position: relative;
     flex: 1 1 25%;
     padding-left: 40px;
+    span{
+      cursor: pointer;
+      &::before{
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 27px;
+        transform: translateY(-52%);
+        left: 0;
+        background-image: url('ic_menu.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
     @media (max-width: 940px) {
       flex: 1 1 75%;
     }
-    @media (max-width: 515px) {
+    @media (max-width: 450px) {
       font-size: 0;
     }
-    &::before{
-      content: '';
-      position: absolute;
-      width: 30px;
-      height: 30px;
-      top: 50%;
-      transform: translateY(-52%);
-      left: 0;
-      background-image: url('ic_menu.svg');
-      background-repeat: no-repeat;
-      background-position: center;
+
+    .subMenuCategories{
+      position: relative;
+      display: inline-block;
+      .subMenuList{
+        ul{
+          position: absolute;
+          width: 200px;
+          background-color: white;
+          z-index: 20;
+          top: 24px;
+          left: -88px;
+          opacity: 0;
+          transition: opacity .3s ease-in;
+          li{
+            color: #666;
+            border-bottom: 2px solid #f2f2f2;
+            box-shadow: 0 0 3px #f2f2f2;
+            padding: 20px 10px;
+            font-size: 14px;
+            line-height: 16px;
+            cursor: pointer;
+            &:hover{
+              box-shadow: 0 0 9px #f2f2f2 inset;
+            }
+            &:last-child{
+              border-bottom: none;
+            }
+          }
+        }
+      }
+      .active{
+        ul{
+          opacity: 1;
+        }
+      }
     }
   }
   .navMenu {
@@ -72,7 +113,6 @@
       }
     }
   }
-
 }
 
 

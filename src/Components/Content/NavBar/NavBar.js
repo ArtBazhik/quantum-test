@@ -20,13 +20,13 @@ const NavBar = (props) => {
       <aside className={s.navBar}>
         <ul className={s.categories}>
           <li className={s.computers}>
-            <NavLink to='/computers'>{categories[0]}</NavLink>
+            <NavLink to='/computers' activeClassName={s.active}>{categories[0]}</NavLink>
           </li>
           <li className={s.appleComputers}>
-            <NavLink to="/appleComputers">{categories[1]}</NavLink>
+            <NavLink to="/appleComputers" activeClassName={s.active}>{categories[1]}</NavLink>
           </li>
           <li className={s.laptops}>
-            <NavLink to="/laptops">{categories[2]}</NavLink>
+            <NavLink to="/laptops" activeClassName={s.active}>{categories[2]}</NavLink>
           </li>
           {/*<li className={s.friends}>*/}
           {/*  <NavLink to={"/"}>{categories[3]}</NavLink>*/}
@@ -38,7 +38,7 @@ const NavBar = (props) => {
           {/*  <NavLink to={"/"}>{categories[5]}</NavLink>*/}
           {/*</li>*/}
           <li className={s.cellPhones}>
-            <NavLink to="/phones">{categories[6]}</NavLink>
+            <NavLink to="/phones" activeClassName={s.active}>{categories[6]}</NavLink>
           </li>
           {/*<li className={s.tvVideo}>*/}
           {/*  <NavLink to={"/"}>{categories[7]}</NavLink>*/}
