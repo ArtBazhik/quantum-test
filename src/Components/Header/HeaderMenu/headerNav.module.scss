@@ -53,8 +53,7 @@
           z-index: 20;
           top: 24px;
           left: -88px;
-          opacity: 0;
-          transition: opacity .3s ease-in;
+          display: none;
           li{
             color: #666;
             border-bottom: 2px solid #f2f2f2;
@@ -74,7 +73,13 @@
       }
       .active{
         ul{
-          opacity: 1;
+          display: block;
+          position: absolute;
+          width: 200px;
+          background-color: white;
+          z-index: 30;
+          top: 24px;
+          left: -88px;
         }
       }
     }
